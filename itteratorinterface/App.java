@@ -23,7 +23,7 @@ public class App {
 		list.add(40);
 		list.add(50);
 		
-		//traversing using Iterator interface
+		//Traversing using Iterator interface
 		Iterator<Integer> numbers = list.iterator();
 		
 		while(numbers.hasNext()) {
@@ -35,9 +35,9 @@ public class App {
 		}
 		
 		//Modern traversing using foreach loop
-//		for(Integer i: list) {
-//			System.out.println(i);
-//		}
+		for(Integer i: list) {
+			System.out.println(i);
+		}
 	}
 
 }
